@@ -1,0 +1,78 @@
+
+.dropdown-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+  z-index: 10;
+  overflow: visible;
+  justify-content: flex-end;
+  align-items: start;
+  border-radius: 8px;
+  overflow: auto;
+}
+
+.dropdown-ul li {
+  padding: 5px;
+  width: 100%;
+  border-radius: 2px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.coin-img:not(:hover),
+.jamm-coin-img:not(:hover),
+.dropdown-ul li:not(:hover),
+.swap-jam-btn:not(:hover) {
+  transition: 0.5s;
+}
+
+.coin-select {
+    position: relative;
+    top: -21px;
+  height: 0px;
+}
+
+.dropdown-ul li:hover {
+    background-color: rgb(130, 133, 135);
+  transition: all 0.5s;
+}
+
+.coin-img:hover {
+    background-color: rgb(154, 157, 159);
+  transition: all 0.3s;
+}
+
+.coin-img {
+  padding: 5px;
+  font-weight: 500;
+  width: 180px;
+  border-radius: 5px;
+  background-color: rgb(226, 232,240);
+  line-height: 30px;
+  height: max-content;
+  display: flex;
+  gap: 12px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+.second-span {
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.coin_text {
+  display: flex;
+  gap: 8px;
+  justify-content: start;
+  align-items: center;
+}
+
+
+.coin-in {
+  padding-left: 10px;
+}
